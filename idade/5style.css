@@ -1,0 +1,60 @@
+.principal {
+    background-color: rgb(245, 238, 220);
+   display: flex;
+   justify-content: center;
+   align-items: center;   
+   height: 100vh;
+   width: 100vw;
+   text-align: center;
+}
+
+
+.caixa {
+  background-image: url("./imgida/ursos.jpeg");
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 60vh;
+    flex-direction: column;
+    border-radius: 30%;
+    border: 2px solid #5d4b45;
+    gap: 10px;
+}
+
+.titulo{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#5d4b45;
+  font-size: 2.5rem;
+}
+
+
+.id1, .id2, .id3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: #e7d4c4;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 4rem;
+    border: 1.5px solid #8C7370;;
+    width: 40%;
+max-width: 250px;
+    
+}
+
+.botao {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color:#5d4b45;
+    background-color: #F2E9E4;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 4rem;
+    border: 2px solid #5d4b45 ;
+    width: 25%;
+    max-width: 250px;
+}
+
+.resultado{
+    color: #261d1a;
+    
+}

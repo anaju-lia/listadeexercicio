@@ -1,0 +1,61 @@
+.principal{
+    background-image: url("./imgp/download.jpeg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo{
+    color: #156e78;
+    font-size: 2.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.caixa{
+    background-image: linear-gradient(to bottom, #BAD99C, #F2C894);
+    height: 55%;
+    width: 25%;
+    border-radius: 12vh;
+    border: 2px solid #217870;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.result{
+    margin-right: 70px;
+    font-size: x-large;
+    color:#217870;
+}
+
+
+.input {
+    padding: 0.5rem;
+    border-radius: 4rem;
+    border: 2px solid #217870;
+    height: 7%;
+    width: 40%;
+    text-align: center;
+    background-color: #D6E5BE;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button{
+    background-image: url("./imgp/spongebob.jpeg");
+    background-size: cover;
+    color:black;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: x-large;
+     border-radius: 4rem;
+     border: 2px solid #217870;
+    height: 10%;
+    width: 40%;
+    text-align: center;
+}

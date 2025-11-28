@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PNN</title>
+    <link rel="stylesheet" href="./2style.css">
+</head>
+<body>
+
+    <div class="principal">
+    <div class="caixa">
+    <h1 class="titulo">Positivo, Negativo ou Nulo?</h1>
+    
+    <input type="number" id="N" class="input" placeholder="Digite um Número">
+    <div class="caixa-menor">
+    <button class="button" onclick="verificarN(document.getElementById('N').value)">Verificar</button>
+    <p id="resultado" class="res"></p>
+    </div>
+</div>
+</div>
+    <script src="./pnn.js"></script>
+</body>
+</html>
